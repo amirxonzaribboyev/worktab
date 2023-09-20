@@ -1,0 +1,192 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+/* header styles start */
+.header-nav {
+    column-gap: 50px;
+}
+
+.header-navigation {
+    color: #957554;
+    font-family: "regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-bottom {
+    background-color: #111;
+    margin-block: 40px;
+    padding-block: 29px;
+}
+
+.btn-margin {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 12px;
+    margin-right: 13px;
+    padding: 18px 25px;
+}
+.btn-warning {
+    background-color: #dfaa5b;
+    color: #fff;
+}
+.btn-warning:hover {
+    background-color: #fff;
+    color: #dfaa5b;
+}
+.check-btn {
+    margin-left: 3px;
+    padding: 18px 25px;
+    border-radius: 12px;
+}
+/* header styles finish */
+/* view section start */
+
+.view-title {
+    color: #957554;
+    font-family: "medium";
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.room1 {
+    background-image: url(../img/room1.png);
+    background-size: cover;
+    width: 630px;
+    height: 500px;
+}
+.room2 {
+    background-image: url(../img/room2.png);
+    background-size: cover;
+    width: 630px;
+    height: 500px;
+}
+.room3 {
+    background-image: url(../img/room3.png);
+    background-size: cover;
+    width: 630px;
+    height: 500px;
+}
+.room4 {
+    background-image: url(../img/room4.png);
+    background-size: cover;
+    width: 630px;
+    height: 500px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.room-title {
+    padding-top: 302px;
+    color: #fff;
+    font-family: "medium", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.give-room {
+    margin-inline: auto;
+    display: flex;
+    background-color: #dfaa5b;
+    padding: 24px 54px;
+    color: #fff;
+    font-family: "meadium", sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 19px;
+}
+
+/* view section finish */
+
+/* footer styles start */
+
+.page-footer {
+    margin-top: 50px;
+    background-color: #111;
+}
+
+.footer-logo {
+    margin-top: 61px;
+    margin-left: 55px;
+}
+
+.footer-nav {
+    margin-left: 55px;
+    margin-top: 72px;
+    margin-bottom: 127px;
+}
+
+.footer-nav-title {
+    color: #fff;
+    font-family: "medium";
+    font-size: 24px;
+}
+
+.footer-nav_link {
+    color: #7a7a7a;
+    font-family: "regular";
+    font-size: 24px;
+}
+/*  */
+/*  */
+/*  */
+.footer-navigation {
+    margin-top: 61px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.footer-navigation_link {
+    color: #fff;
+    font-family: "regular";
+    font-size: 24px;
+}
+
+/*  */
+/*  */
+/*  */
+
+.footer-form {
+    margin-top: 61px;
+}
+
+.footer-form_title {
+    color: #fff;
+    font-family: "medium";
+    font-size: 30px;
+}
+.footer-input {
+    font-size: 24px;
+    font-family: "regular";
+    border-radius: 8px;
+    padding: 23px 45px 23px 27px;
+    margin-block: 20px 24px;
+}
+
+.footer-form_btn {
+    padding: 23px 120px;
+    color: #fff;
+    font-family: "medium";
+    font-size: 24px;
+}
+
+/* footer styles finish */
