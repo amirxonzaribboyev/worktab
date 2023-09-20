@@ -52,6 +52,45 @@
     border-radius: 12px;
 }
 /* header styles finish */
+
+/* SHAHRIYOR */
+
+.catalog-section {
+    margin: 0 auto;
+    width: 1319px;
+    padding: 42px 61px 56px;
+    position: relative;
+    top: -159px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+.second-title {
+    text-align: center;
+    padding-top: 42px;
+    color: #957554;
+    font-family: "medium", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.content {
+    display: flex;
+    padding-block: 45px;
+    justify-content: space-evenly;
+}
+.text {
+    text-align: center;
+    color: #957554;
+    font-family: "regular";
+    font-size: 24px;
+    font-weight: 400;
+}
+.catalog-img {
+    padding-inline: 15px;
+    padding-bottom: 16px;
+}
+
+/* SHAHRIYOR */
+
 /* view section start */
 
 .view-title {
